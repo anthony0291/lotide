@@ -1,10 +1,14 @@
 //Function Implementation
 //make function compare two values it takes in and print out a message saying if they match or not.
 const assertEqual = function(actual, expected) {
+  let ass = 'Assertation'
+  let act = actual;
+  let exp = expected;
+
   if (actual === expected) {
-    console.log('😍😍😍' + 'Assertation Passed: ' + actual + ' === ' + expected);
+    console.log(`😍😍😍 ${ass} Passed: ${act} === ${exp}`);
   } else {
-    console.log("🚀🚀🚀" + 'Assertation Failed: ' + actual + ' !== ' + expected);
+    console.log(`🚀🚀🚀 ${ass} Failed: ${act} !== ${exp}`);
   }
 };
 
