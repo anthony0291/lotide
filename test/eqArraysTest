@@ -1,0 +1,9 @@
+const assertEqual = require('../assertEqual');
+
+//eqArrays
+const eqArrays = require('../eqArrays');
+
+
+//Test Code
+assertEqual(eqArrays([0, 1, -2,'hello'], [0, 0, -2,'hello']), true); 
+assertEqual(eqArrays([0, 0, -2,'hello'], [0, 0, -2,'hello']), true); 
