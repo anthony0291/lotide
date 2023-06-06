@@ -1,5 +1,4 @@
 //eqArrays
-
 const eqArrays = function(num1, num2) {
   let newNum1 = num1;
   let newNum2 = num2;
